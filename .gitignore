@@ -1,1 +1,15 @@
+# Ignorar diretórios e arquivos gerados pelo Visual Studio
 .vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignorar diretórios e arquivos gerados pelo build
+bin/
+obj/
+out/
+
+# Ignorar diretórios e arquivos específicos do sistema operacional
+.DS_Store
+Thumbs.db
