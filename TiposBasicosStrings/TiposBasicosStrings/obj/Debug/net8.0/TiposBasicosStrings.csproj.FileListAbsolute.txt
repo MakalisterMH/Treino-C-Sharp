@@ -1,0 +1,14 @@
+C:\Users\LocalAdmin\Desktop\Aula c#\TiposBasicosStrings\TiposBasicosStrings\obj\Debug\net8.0\TiposBasicosStrings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LocalAdmin\Desktop\Aula c#\TiposBasicosStrings\TiposBasicosStrings\obj\Debug\net8.0\TiposBasicosStrings.AssemblyInfoInputs.cache
+C:\Users\LocalAdmin\Desktop\Aula c#\TiposBasicosStrings\TiposBasicosStrings\obj\Debug\net8.0\TiposBasicosStrings.AssemblyInfo.cs
+C:\Users\LocalAdmin\Desktop\Aula c#\TiposBasicosStrings\TiposBasicosStrings\obj\Debug\net8.0\TiposBasicosStrings.csproj.CoreCompileInputs.cache
+C:\Users\LocalAdmin\Desktop\Aula c#\TiposBasicosStrings\TiposBasicosStrings\bin\Debug\net8.0\TiposBasicosStrings.exe
+C:\Users\LocalAdmin\Desktop\Aula c#\TiposBasicosStrings\TiposBasicosStrings\bin\Debug\net8.0\TiposBasicosStrings.deps.json
+C:\Users\LocalAdmin\Desktop\Aula c#\TiposBasicosStrings\TiposBasicosStrings\bin\Debug\net8.0\TiposBasicosStrings.runtimeconfig.json
+C:\Users\LocalAdmin\Desktop\Aula c#\TiposBasicosStrings\TiposBasicosStrings\bin\Debug\net8.0\TiposBasicosStrings.dll
+C:\Users\LocalAdmin\Desktop\Aula c#\TiposBasicosStrings\TiposBasicosStrings\bin\Debug\net8.0\TiposBasicosStrings.pdb
+C:\Users\LocalAdmin\Desktop\Aula c#\TiposBasicosStrings\TiposBasicosStrings\obj\Debug\net8.0\TiposBasicosStrings.dll
+C:\Users\LocalAdmin\Desktop\Aula c#\TiposBasicosStrings\TiposBasicosStrings\obj\Debug\net8.0\refint\TiposBasicosStrings.dll
+C:\Users\LocalAdmin\Desktop\Aula c#\TiposBasicosStrings\TiposBasicosStrings\obj\Debug\net8.0\TiposBasicosStrings.pdb
+C:\Users\LocalAdmin\Desktop\Aula c#\TiposBasicosStrings\TiposBasicosStrings\obj\Debug\net8.0\TiposBasicosStrings.genruntimeconfig.cache
+C:\Users\LocalAdmin\Desktop\Aula c#\TiposBasicosStrings\TiposBasicosStrings\obj\Debug\net8.0\ref\TiposBasicosStrings.dll
