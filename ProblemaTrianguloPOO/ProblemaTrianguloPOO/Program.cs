@@ -3,7 +3,7 @@ using System;
 
 class Program
 {
-    static  void Main(string[] args)
+    static void Main(string[] args)
     {
 
         double a, b, c;
@@ -20,7 +20,7 @@ class Program
         c = double.Parse(Console.ReadLine());
 
 
-        Triangulo triangulo = new Triangulo(a,b,c);
+        Triangulo triangulo = new Triangulo(a, b, c);
 
 
 
@@ -29,5 +29,6 @@ class Program
 
 
     }
+
 
 }
