@@ -14,7 +14,7 @@ namespace ExercicioFuncionarioPOO
 
         public double SalarioLiquido()
         {
-            return salario = imposto;
+            return salario -= imposto;
         }
 
         public void AumentarSalario(double porcentagem)

@@ -16,6 +16,11 @@ class Program
         funcionario.salario = double.Parse(Console.ReadLine());
         double salario = funcionario.salario;
 
+
+        Console.WriteLine("Digite o valor do imposto");
+        funcionario.imposto = double.Parse(Console.ReadLine());
+
+
         Console.WriteLine("Digite a porcentagem de aumento do salario desse funcionario");
         double porcentagem = double.Parse(Console.ReadLine());
 
