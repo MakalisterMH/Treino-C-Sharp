@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\RegraD3",
+    "\\RegraD3\\RegraD3",
+    "\\SeleniumAutomacao\\SeleniumAutomacao"
   ],
-  "SelectedNode": "\\ExercicioFor",
+  "SelectedNode": "\\RegraD3\\RegraD3\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }

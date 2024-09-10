@@ -19,12 +19,12 @@ namespace PDFTextExtraction
             { "TRIBUNAL REGIONAL ELEITORAL DO AMAPÁ", "TRE-AP" },
             { "TRIBUNAL REGIONAL ELEITORAL DA BAHIA", "TRE-BA" },
             { "TRIBUNAL REGIONAL ELEITORAL DO CEARÁ", "TRE-CE" },
-            { "TRIBUNAL REGIONAL ELEITORAL DO DISTRITO", "TRE-DF" },
+            { "TRIBUNAL REGIONAL ELEITORAL DO DISTRITO", "TRE-DFT" },
             { "TRIBUNAL REGIONAL ELEITORAL DO ESPÍRITO SANTO", "TRE-ES" },
             { "TRIBUNAL REGIONAL ELEITORAL DE GOIÁS", "TRE-GO" },
             { "TRIBUNAL REGIONAL ELEITORAL DO MARANHÃO", "TRE-MA" },
+            { "TRIBUNAL REGIONAL ELEITORAL DO MATO GROSSO\\s*DO SUL", "TRE-MS" }, // Expressão regular para lidar com quebras de linha e espaços
             { "TRIBUNAL REGIONAL ELEITORAL DO MATO GROSSO", "TRE-MT" },
-            { "TRIBUNAL REGIONAL ELEITORAL DE MATO GROSSO DO SUL", "TRE-MS" },
             { "TRIBUNAL REGIONAL ELEITORAL DE MINAS GERAIS", "TRE-MG" },
             { "TRIBUNAL REGIONAL ELEITORAL DO PARÁ", "TRE-PA" },
             { "TRIBUNAL REGIONAL ELEITORAL DA PARAÍBA", "TRE-PB" },
@@ -32,8 +32,8 @@ namespace PDFTextExtraction
             { "TRIBUNAL REGIONAL ELEITORAL DE PERNAMBUCO", "TRE-PE" },
             { "TRIBUNAL REGIONAL ELEITORAL DO PIAUÍ", "TRE-PI" },
             { "TRIBUNAL REGIONAL ELEITORAL DO RIO DE JANEIRO", "TRE-RJ" },
-            { "NORTE", "TRE-RN" },
-            { "SUL", "TRE-RS" },
+            { "TRIBUNAL REGIONAL ELEITORAL DO RIO GRANDE DO\\s*NORTE", "TRE-RN" },
+            { "TRIBUNAL REGIONAL ELEITORAL DO RIO GRANDE DO\\s*SUL", "TRE-RS" },
             { "TRIBUNAL REGIONAL ELEITORAL DE RONDÔNIA", "TRE-RO" },
             { "TRIBUNAL REGIONAL ELEITORAL DE RORAIMA", "TRE-RR" },
             { "TRIBUNAL REGIONAL ELEITORAL DE SANTA CATARINA", "TRE-SC" },
@@ -62,7 +62,7 @@ namespace PDFTextExtraction
         static void Main(string[] args)
         {
             // Diretório onde os arquivos PDF estão localizados
-            string sourceDirectory = @"C:\Users\LocalAdmin\Downloads";
+            string sourceDirectory = @"F:\Makalister Update\TRE-ADMIN\DOWNLOADS";
 
             // Verifica se o diretório especificado existe
             if (!Directory.Exists(sourceDirectory))
@@ -241,8 +241,8 @@ namespace PDFTextExtraction
             // Itera sobre cada par chave-valor do dicionário de siglas
             foreach (var pair in TribunalAbbreviations)
             {
-                // Verifica se o texto contém o nome completo do tribunal
-                if (text.Contains(pair.Key))
+                // Usa expressão regular para verificar se o texto contém o nome completo do tribunal
+                if (Regex.IsMatch(text, pair.Key, RegexOptions.IgnoreCase | RegexOptions.Multiline))
                 {
                     // Retorna a sigla correspondente
                     return pair.Value;
