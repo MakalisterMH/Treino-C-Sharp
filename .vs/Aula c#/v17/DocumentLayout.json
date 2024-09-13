@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\LocalAdmin\\Desktop\\Aula c#\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LocalAdmin\\Desktop\\Aula c#\\SeleniumAutomacao\\SeleniumAutomacao\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SeleniumAutomacao\\SeleniumAutomacao\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LocalAdmin\\Desktop\\Aula c#\\SeleniumAutomacao\\SeleniumAutomacao\\SeleniumAutomacao.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SeleniumAutomacao\\SeleniumAutomacao\\SeleniumAutomacao.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LocalAdmin\\Desktop\\Aula c#\\TiposBasicosStrings\\TiposBasicosStrings\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TiposBasicosStrings\\TiposBasicosStrings\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,27 +22,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SeleniumAutomacao.csproj",
-              "DocumentMoniker": "C:\\Users\\LocalAdmin\\Desktop\\Aula c#\\SeleniumAutomacao\\SeleniumAutomacao\\SeleniumAutomacao.csproj",
-              "RelativeDocumentMoniker": "SeleniumAutomacao\\SeleniumAutomacao\\SeleniumAutomacao.csproj",
-              "ToolTip": "C:\\Users\\LocalAdmin\\Desktop\\Aula c#\\SeleniumAutomacao\\SeleniumAutomacao\\SeleniumAutomacao.csproj",
-              "RelativeToolTip": "SeleniumAutomacao\\SeleniumAutomacao\\SeleniumAutomacao.csproj",
-              "ViewState": "AQIAABMAAAAgT4WnwlMmwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-29T05:08:49.462Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\LocalAdmin\\Desktop\\Aula c#\\SeleniumAutomacao\\SeleniumAutomacao\\Program.cs",
-              "RelativeDocumentMoniker": "SeleniumAutomacao\\SeleniumAutomacao\\Program.cs",
-              "ToolTip": "C:\\Users\\LocalAdmin\\Desktop\\Aula c#\\SeleniumAutomacao\\SeleniumAutomacao\\Program.cs",
-              "RelativeToolTip": "SeleniumAutomacao\\SeleniumAutomacao\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\LocalAdmin\\Desktop\\Aula c#\\TiposBasicosStrings\\TiposBasicosStrings\\Program.cs",
+              "RelativeDocumentMoniker": "TiposBasicosStrings\\TiposBasicosStrings\\Program.cs",
+              "ToolTip": "C:\\Users\\LocalAdmin\\Desktop\\Aula c#\\TiposBasicosStrings\\TiposBasicosStrings\\Program.cs",
+              "RelativeToolTip": "TiposBasicosStrings\\TiposBasicosStrings\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T05:08:36.91Z",
+              "WhenOpened": "2024-09-12T23:45:50.583Z",
               "EditorCaption": ""
             }
           ]

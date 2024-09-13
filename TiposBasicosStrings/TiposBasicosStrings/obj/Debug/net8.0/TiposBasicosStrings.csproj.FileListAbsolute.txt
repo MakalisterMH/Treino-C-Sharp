@@ -12,3 +12,4 @@ C:\Users\LocalAdmin\Desktop\Aula c#\TiposBasicosStrings\TiposBasicosStrings\obj\
 C:\Users\LocalAdmin\Desktop\Aula c#\TiposBasicosStrings\TiposBasicosStrings\obj\Debug\net8.0\TiposBasicosStrings.pdb
 C:\Users\LocalAdmin\Desktop\Aula c#\TiposBasicosStrings\TiposBasicosStrings\obj\Debug\net8.0\TiposBasicosStrings.genruntimeconfig.cache
 C:\Users\LocalAdmin\Desktop\Aula c#\TiposBasicosStrings\TiposBasicosStrings\obj\Debug\net8.0\ref\TiposBasicosStrings.dll
+C:\Users\LocalAdmin\Desktop\Aula c#\TiposBasicosStrings\TiposBasicosStrings\obj\Debug\net8.0\TiposBasicosStrings.sourcelink.json
