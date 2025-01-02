@@ -22,7 +22,7 @@ namespace FuncoesSintaxe
 
             else if (n2 > n3)
             {
-                resultado = n2;   // se n1 não é maior é so verificar c n3 é maior q n2, c n for o n2 é o Maior.
+                resultado = n2;   // se n1 não é maior é so verificar c n2 é maior q n3, c for ele é o Maior.
             }
 
             else
