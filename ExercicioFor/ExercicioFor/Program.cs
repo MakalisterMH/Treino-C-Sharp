@@ -9,4 +9,5 @@ for (int i = 1; i <= numeroUsuario; i++)
     int numero = int.Parse(Console.ReadLine());
 
     Console.WriteLine("Numero {0} = {1}",i,numero);
+    Console.WriteLine("Numero " + i +" = " + numero);
 }
