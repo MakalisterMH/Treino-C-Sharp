@@ -24,8 +24,19 @@ class Program
         Console.WriteLine("Digite a porcentagem de aumento do salario desse funcionario");
         double porcentagem = double.Parse(Console.ReadLine());
 
-        funcionario.AumentarSalario(porcentagem);
 
-        Console.WriteLine("Considerando o aumento de {0}% sobre o salario de {1} $, o salario atualizado fica: {2} $.",porcentagem,salario,funcionario.salario);
+
+
+
+
+        Console.WriteLine($"salario antigo: {salario:F2}");
+        Console.WriteLine($"Salário antigo líquido: {funcionario.SalarioLiquido(funcionario.imposto):F2}");  // Chama o método SalarioLiquido
+
+
+        Console.WriteLine($"Salário com aumento: {funcionario.AumentarSalario(porcentagem):F2}");  // Chama o método AumentarSalario
+        Console.WriteLine($"Salário novo liquido: {funcionario.SalarioComImposto(funcionario.imposto,porcentagem):F2}");  // Chama o método SalarioComImposto
+
+
+
     }
 }

@@ -12,14 +12,21 @@ namespace ExercicioFuncionarioPOO
         public double salario;
         public double imposto;
 
-        public double SalarioLiquido()
+        public double SalarioLiquido(double imposto)
         {
-            return salario -= imposto;
+            return salario - imposto;
         }
 
-        public void AumentarSalario(double porcentagem)
+        public double AumentarSalario(double porcentagem)
         {
-            salario += (porcentagem * salario) / 100; 
+           return salario += (porcentagem * salario) / 100; 
+        }
+
+        public double SalarioComImposto(double imposto, double porcentagem)
+        {
+
+            return salario -= AumentarSalario(porcentagem) - SalarioLiquido(imposto);
+            
         }
 
     }
