@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\TiposBasicosStrings",
+    "\\TiposBasicosStrings\\TiposBasicosStrings"
   ],
+  "SelectedNode": "\\TiposBasicosStrings\\TiposBasicosStrings\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
