@@ -31,6 +31,17 @@ class Program
 
 
 
+            /*
+
+            for (int a = 0; a < estudantes.Length; a++)
+            {
+                string status = estudantes[a] == null ? "Disponível" : "Ocupado";
+                Console.WriteLine($"Quarto {a}: {status}");
+            }
+
+             */
+
+
             for (int a = 0; a < estudantes.Length; a++)
             {
                 if (estudantes[a] != null)
