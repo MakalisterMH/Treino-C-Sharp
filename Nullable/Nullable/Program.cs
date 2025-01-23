@@ -9,6 +9,7 @@
         Nullable<double> X = null;
         double? Y = null;
 
+        Console.WriteLine(Y);
 
         double? Z = 10;
 
